@@ -1,0 +1,75 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    &--wrap-fm {
+        flex-wrap: wrap;
+        @mixin atXmedium {
+            flex-wrap: nowrap;
+        }
+        & > div {
+            margin: 10px 0;
+        }
+    }
+    &--wrap-fd {
+        flex-wrap: wrap;
+    }
+    &__1 {
+        flex-basis: 8.33%;
+    }
+    &__2 {
+        flex-basis: 16.66%;
+        &--xsml {
+            @mixin atMedium {
+                flex-basis: 50%;
+            }
+            @mixin atXmedium {
+                flex-basis: 16.66%;
+            }
+        }
+    }
+    &__3 {
+        flex-basis: 47%;
+        @mixin atXmedium {
+            flex-basis: 25%;
+        }
+    }
+    &__4 {
+        flex-basis: 50%;
+        @mixin atXmedium {
+            flex-basis: 33.33%;
+        }
+    }
+    &__5 {
+        flex-basis: 41.65%;
+    }
+    &__6 {
+        flex-basis: 49.5%;
+    }
+    &__7 {
+        flex-basis: 58.31%;
+    }
+    &__9 {
+        flex-basis: 74.97%;
+    }
+    &__10 {
+        flex-basis: 83.3%;
+    }
+    &__11 {
+        flex-basis: 91.63%;
+    }
+    &__12 {
+        flex-basis: 100%;
+    }
+    &__12_small {
+        @mixin atTillmedium {
+             flex-basis: 100%;
+             margin: 15px 0;
+        }
+    }
+    &--column-fm {
+        flex-direction: column;
+        @mixin atMedium {
+            flex-direction: row;
+        }
+    }
+}

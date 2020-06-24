@@ -1,0 +1,18 @@
+.skills {
+    background: $offgray;
+    .headline {
+        h4 {
+            color: $offwhite;
+        }
+    }
+    &__single {
+        padding: 15px 5px;
+        text-align: center;
+        h4 {
+            color: #fff;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+    }
+}

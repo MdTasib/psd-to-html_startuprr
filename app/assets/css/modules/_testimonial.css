@@ -1,0 +1,26 @@
+.testimonial {
+    background: $active;
+    &__single {
+        button {
+            padding: 10px;
+            background: $offwhite;
+            span {
+                color: $active;
+                font-weight: 600;
+                font-size: 10px;
+            }
+            &:hover {
+                background: $ongray;
+                color: #fff;
+            }
+        }
+        h3 {
+            color: #fff;
+            font-weight: 100;
+            font-size: 14px;
+            @mixin atMedium {
+                font-size: 18px;
+            }
+        }
+    }
+}

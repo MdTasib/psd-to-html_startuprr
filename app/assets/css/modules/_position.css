@@ -1,0 +1,19 @@
+/* .more-features__icon {
+    position: relative;
+    .firstbg {
+        position: absolute;
+        top: 15px;
+    }
+    .secondbg {
+        position: absolute;
+    }
+    i {
+        position: absolute;
+        z-index: 1;
+        top: 15px;
+        left: 10px;
+    }
+} */
+
+/* <!-- <img class="firstbg" src="assets/images/firstbg.png" alt="">
+<img class="secondbg" src="assets/images/secondbg.png" alt=""> --> */

@@ -1,0 +1,73 @@
+.team {
+    position: relative;
+    &__single {
+        cursor: pointer;
+        border: 1px solid #dedede;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 5px;
+        position: relative;
+        .prl-overlay__content {
+            opacity: 0;
+            top: 33%;
+            color: $active;
+            font-size: 24px;
+        }
+        &:hover .team__single__content{
+            {
+                span {
+                    background: $offgray;
+                }
+                a {
+                    color: $active;
+                }
+            }
+        }
+        &:hover .prl-overlay__content{
+            opacity: 1;
+        }
+        &__pic {
+            img {
+                display: block;
+            }
+            text-align: -webkit-center;
+        }
+        &__content {
+            span {
+                background: #00a99d;
+                border: 1px solid transparent;
+                padding: 2px 8px;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 10px;
+                text-transform: uppercase;
+                margin-top: 5px;
+            }
+            p {
+                font-size: 12px;
+                color: $offgray;
+            }
+            a {
+                color: $ongray;
+                font-size: 12px;
+                margin: 8px;
+            }
+            i {
+                color: $gray;
+            }
+        }
+    }
+    .owlslider {
+        .owl-prev {
+            position: absolute;
+            top: 11%;
+            left: 20%;
+        }
+
+        .owl-next {
+            position: absolute;
+            top: 11%;
+            right: 20%;
+        }
+    }
+}

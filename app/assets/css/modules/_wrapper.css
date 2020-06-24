@@ -1,0 +1,11 @@
+.wrapper {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    &--small-fm {
+        max-width: 500px;
+        @mixin atMedium {
+            max-width: 1170px;
+        }
+    }
+}

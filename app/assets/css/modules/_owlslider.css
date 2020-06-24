@@ -1,0 +1,24 @@
+.owlslider {
+    .owl-stage-outer {
+        overflow: hidden;
+    }
+    .owl-item {
+        float: left;
+    }
+    .owl-dots {
+        display: none;
+    }
+    .owl-nav button {
+        margin: 2px;
+        border: none;
+        border-radius: 3px;
+        background: #e4e4e4;
+        color: #00a99d;
+        font-size: 20px;
+        padding: 0px 7px;
+    &:hover {
+        background: $ongray;
+        color: #fff;
+    }
+    }
+}

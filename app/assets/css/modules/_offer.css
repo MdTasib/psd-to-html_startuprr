@@ -1,0 +1,30 @@
+.offers {
+    &__single {
+        padding: 15px 10px;
+        @mixin atMedium {
+            padding: 20px 0px;
+        }
+        i {
+            font-size: 32px;
+            color: #e4e4e4;
+            border: 1px solid transparent;
+            background: #383838;
+            padding: 32px;
+            border-radius: 50%;
+            line-height: 34px;
+        }
+        button {
+            border: 1px solid $gray; 
+            background: transparent;
+        }
+        &:hover {
+            i, button {
+                background: $active;
+            }
+            button {
+                color: #fff;
+                border: 1px solid transparent;
+            }
+        }
+    }
+}

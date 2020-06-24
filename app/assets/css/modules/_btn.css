@@ -1,0 +1,44 @@
+button {
+    cursor: pointer;
+}
+.btn {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 7px 15px;
+    background: $active;
+    border: none;
+    color: $gray;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    &:hover {
+        background: #fff;
+        border: 1px solid $gray;
+        color: $gray;
+    }
+    &--small {
+        padding: 9px;
+    }
+}
+/* scroll btn */
+.scroll-btn {
+    button {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        border: none;
+        border-radius: 4px;
+        padding: 6px 13px;
+        visibility: hidden;
+        opacity: 0;
+        &:hover {
+            background: $ongray;
+            color: #fff;
+        }
+    }
+    &__active {
+        button {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}

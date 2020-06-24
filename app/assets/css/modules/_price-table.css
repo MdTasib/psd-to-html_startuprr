@@ -1,0 +1,48 @@
+.table {
+    &__single {
+        border: 1px solid $gray;
+        border-radius: 3px;
+        padding: 15px;
+        margin: 15px 7px;
+        &:hover {
+            .plan {
+                background: $active;
+            }
+        }
+        .plan {
+            background: $offgray;
+            color: #fff;
+            font-size: 12px;
+            padding: 3px 10px;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+        .price {
+            p {
+                font-size: 12px;
+            }
+            span {
+                color: black;
+                font-size: 38px;
+                padding: 0px 8px;
+            }
+        }
+        .list {
+            ul li {
+                font-size: 12px;
+                font-family: sans-serif;
+                line-height: 30px;
+                margin-right: 35px;
+            }
+        }
+        .button {
+            padding: 10px 0px;
+            button {
+                color: #fff;
+                &:hover {
+                    color: $active;
+                }
+            }
+        }
+    }
+}

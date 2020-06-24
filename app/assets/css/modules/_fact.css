@@ -1,0 +1,33 @@
+.facts {
+    background: $offgray;
+    &__head {
+        .headline {
+            h4 {
+                color: #fff;
+            }
+        }
+    }
+    &__single {
+        padding: 20px;
+    }
+    &__single__content {
+        display: inline-flex;
+        span {
+            font-size: 38px;
+            margin: 0 15px;
+            color: #fff;
+        }
+    }
+    &__single__icon {
+        padding: 15px;
+        i {
+            color: $active;
+        }
+        p {
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "a-simple-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-prettify": "^0.3.4",
+    "postcss-simple-vars": "^5.0.2"
+  }
+}

@@ -1,0 +1,50 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,button,span {
+    font-family: 'Raleway', sans-serif;
+}
+.no-mar {
+    margin: 0;
+}
+.no-pad {
+    padding: 0;
+}
+.text-upper {
+    text-transform: uppercase;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-cfm {
+    @mixin atTillmedium {
+        text-align: center;
+    }
+}
+.text-cfmm {
+    @mixin atXmaxmedium {
+        text-align: center;
+    }
+}
+.aqua {
+    color: $active;
+}
+
+/* transition */
+button,
+.offers__single i, button,
+.plan,
+.main-menu ul li ,
+.main-menu ul li a {
+    transition: .5s;
+}

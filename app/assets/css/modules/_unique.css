@@ -1,0 +1,22 @@
+.unique {
+    background: $ongray;
+    &__content {
+        h2 {
+            color: black;
+            font-size: 14px;
+            text-transform: capitalize;
+            @mixin atMedium {
+                font-size: 24px;
+            }
+        }
+    }
+    &__button {
+        button {
+            margin-top: 15px;
+            color: #fff;
+            &:hover {
+                color: $active;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.footer {
+    background: $offgray;
+    &__icon {
+        i {
+            border: 1px solid $gray;
+            padding: 5px 8px;
+            margin: 5px;
+            border-radius: 5px;
+            color: #fff;
+            &:hover {
+                background: $active;
+                border: 1px solid transparent;
+            }
+        }
+    }
+    &__inner {
+        max-width: 400px;
+        margin: 0 auto;
+        p {
+            font-size: 14px;
+            color: #fff;
+            text-transform: capitalize;
+        }
+    }
+}

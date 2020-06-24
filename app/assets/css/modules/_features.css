@@ -1,0 +1,20 @@
+.features {
+    &__single {
+        @mixin atMedium {
+            max-width: 340px;
+        }
+        padding: 30px 0px;
+    }
+    &__icon {
+        i {
+            font-size: 34px;
+            line-height: 62px;
+            color: $active;
+        }
+    }
+    &__heading {
+        p {
+            line-height: 15px;
+        }
+    }
+}

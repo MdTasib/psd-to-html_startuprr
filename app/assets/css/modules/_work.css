@@ -1,0 +1,15 @@
+.work {
+    &__single {
+        a, img {
+            display: block;
+            padding: 1px;
+        }
+    }
+    &__btn {
+        button {
+            background: $active;
+            color: #fff;
+            width: 100%;
+        }
+    }
+}

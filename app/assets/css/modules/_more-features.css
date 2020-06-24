@@ -1,0 +1,15 @@
+.more-features {
+    &__single {
+        padding: 10px;
+    }
+    &__icon {
+        font-size: 38px;
+        color: $active;
+        margin: 10px;
+    }
+    &__content {
+        span {
+            font-size: 12px;
+        }
+    }
+}

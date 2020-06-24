@@ -1,0 +1,38 @@
+.section-pad {
+    padding: 30px 0px;
+    @mixin atMedium {
+        padding: 60px 0px;
+    }
+    &--medium {
+        padding: 15px 0;
+        @mixin atMedium {
+            padding: 30px 0;
+        }
+    }
+    &--small {
+        padding: 5px 0px;
+        @mixin atMedium {
+            padding: 10px 0px;
+        }
+    }
+}
+
+/* css shapes */
+.shape {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: $active;
+    position: relative;
+    top: -50px;
+}
+.shape:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: $active;
+}

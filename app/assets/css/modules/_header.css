@@ -1,0 +1,41 @@
+.menu {
+    border-bottom: 1px solid $gray;
+    .logo {
+        margin-top: 10px;
+    }
+    .main-menu {
+        ul li {
+            display: block;
+            @mixin atMedium {
+                display: inline-block;
+            }
+            border-radius: 5px;
+        &:hover {
+            background: $active;
+            a {
+                color: #ffffff;
+            }
+        }
+        }
+        ul li a {
+            padding: 5px;
+            font-size: 12px;
+            @mixin atXmedium {
+                padding: 5px 15px;
+                font-size: 14px;
+            }
+            display: block;
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: $offgray;
+        }
+    }
+    .search {
+        i {
+            cursor: pointer;
+            margin-top: 24px;
+            font-size: 14px;
+            color: $active;
+        }
+    }
+}

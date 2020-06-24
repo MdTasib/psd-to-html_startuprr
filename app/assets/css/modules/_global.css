@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: $gray;
+    line-height: 24px;
+    background: #f9f9f9;
+}
+img {
+    max-width: 100%;
+}
+span {
+    display: inline-block;
+}
+p {
+    font-size: 16px;
+    font-family: initial;
+}

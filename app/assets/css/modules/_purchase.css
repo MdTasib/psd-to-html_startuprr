@@ -1,0 +1,19 @@
+.purchase {
+    background: $active;
+    &__content {
+        p {
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+    &__btn {
+        button {
+            background: $offwhite;
+            margin-top: 15px;
+            &:hover {
+                color: $active;
+                border: 1px solid transparent;
+            }
+        }
+    }
+}
