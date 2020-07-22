@@ -1,6 +1,6 @@
 .testimonial {
     background: $active;
-    &__single {
+    &__single { 
         button {
             padding: 10px;
             background: $offwhite;
